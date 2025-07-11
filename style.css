@@ -1,0 +1,72 @@
+/* "*" Selects all the elements in the page */
+* {}
+
+
+body {
+	background: darkgrey;
+}
+
+
+/* Aplly the syle to ALL the <h1> */
+h1 {
+	color: midnightblue;
+} 
+
+/*To apply a style to more than one element use "," */
+/*This will apply the style to BOTH <p> and <h2>*/
+p , h2 {
+	color: gray;
+}
+
+/*The dot (.) selects elements by class name*/
+.Test2 {
+	color: red;
+}
+
+.Test3 {
+	color: pink;
+}
+
+
+/* Styles all <p> elements with class "Test" to have violet text color */
+/* Any element with the class "Test" BUT NOT A paragraph will NOT be styled */
+p.Test {
+	color: violet;
+}
+
+/** Use "#" To select element by "ID" **/
+#Id_Test {
+	color: midnightblue;
+}
+
+p#Id_Test {
+	color: midnightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
