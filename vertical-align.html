@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>vertical-align — clear demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 24px; }
+
+    p {
+      font-size: 2em;
+    }
+
+    img.a {
+      vertical-align: baseline;
+}
+
+    img.aa {
+      vertical-align: middle;
+}
+
+    img.ab {
+      vertical-align: top;
+}
+
+    img.abc {
+      vertical-align: bottom;
+}
+
+    img.b {
+      vertical-align: text-top;
+}
+
+    img.c {
+      vertical-align: text-bottom;
+}
+
+    img.d {
+      vertical-align: sub;
+}
+
+    img.e {
+      vertical-align: super;
+}
+
+
+    /* Table demo to show vertical-align on table cells */
+    table { border-collapse: collapse; margin-top: 28px; }
+    td {
+      width: 160px; height: 120px; border: 1px solid #999; padding: 8px;
+    }
+    .td-top    { vertical-align: top; }
+    .td-middle { vertical-align: middle; }
+    .td-bottom { vertical-align: bottom; }
+  </style>
+</head>
+<body>
+  <h1>The vertical-align Property</h1>
+
+  <h2>vertical-align: baseline (default):</h2>
+  <p>Align the orange square to baseline: <img class="a" src="morapa3.png" width="60" height="60"></p> 
+
+  <h2>vertical-align: middle:</h2>
+  <p>Align the orange square to middle: <img class="aa" src="morapa3.png" width="60" height="60"></p> 
+
+  <h2>vertical-align: top:</h2>
+  <p>Align the orange square to top: <img class="ab" src="morapa3.png" width="60" height="60"></p>  
+
+  <h2>vertical-align: bottom:</h2>
+  <p>Align the orange square to bottom: <img class="abc" src="morapa3.png" width="60" height="60"></p> 
+
+  <h2>vertical-align: text-top:</h2>
+  <p>Align the orange square to text-top: <img class="b" src="morapa3.png" width="60" height="60"></p> 
+
+  <h2>vertical-align: text-bottom:</h2>
+  <p>Align the orange square to text-bottom: <img class="c" src="morapa3.png" width="60" height="60"></p> 
+
+  <h2>vertical-align: sub:</h2>
+  <p>Align the orange square to sub: <img class="d" src="morapa3.png" width="60" height="60"></p> 
+
+  <h2>vertical-align: sup:</h2>
+  <p>Align the orange square to super: <img class="e" src="morapa3.png" width="60" height="60"></p> 
+
+
+
+
+  <h2>Table-cell demo</h2>
+  <table>
+    <tr>
+      <td class="td-top">vertical-align: top</td>
+      <td class="td-middle">vertical-align: middle</td>
+      <td class="td-bottom">vertical-align: bottom</td>
+    </tr>
+  </table>
+
+</body>
+</html>
